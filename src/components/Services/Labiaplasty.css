@@ -1,0 +1,31 @@
+.labiaplasty__main{
+	max-width: 600px;
+ 	margin: 100px auto;
+}
+
+.labiaplasty__image{
+	margin-left: 20px;
+
+}
+.labiaplasty__image>img{
+	width: 200px;
+ 	height: auto;
+}
+.labiaplasty__main>h1{
+	position: relative;
+	position: fixed;
+	top:35px;
+	left:20px;
+	text-align: center;
+	justify-content: center
+}
+
+.labiaplasty__content>h3{
+	font-family: "Lato", sans-serif;
+}
+
+.labiaplasty__content>p{
+ background-color: white;
+ color:black;
+ font-family: "Lato", sans-serif;
+}

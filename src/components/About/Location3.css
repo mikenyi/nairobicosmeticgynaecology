@@ -1,0 +1,24 @@
+.location__container{
+	justify-content:center;
+	max-width:300px;
+	margin: 0 auto;
+}
+
+.location__container>a{
+	text-decoration: none;
+	color: black;
+	margin-bottom: 5px;
+	text-align:center;
+}
+
+.location__spacer{
+	height:70px;
+}
+.location__container img{
+	width: 100%;
+}
+
+.location__container>a>h1:hover{
+	color: blue;
+	background-color: red;
+}

@@ -1,0 +1,32 @@
+.clitoral__main{
+ max-width: 500px;
+ margin: 100px auto;
+}
+
+.clitoral__image{
+	margin-left: 20px;
+
+}
+.clitoral__image>img{
+	width: 200px;
+ 	height: auto;
+}
+
+.clitoral__content>h3{
+	font-family: "Lato", sans-serif;
+}
+
+.clitoral__main>h1{
+	position: relative;
+	position: fixed;
+	top:35px;
+	left:20px;
+	text-align: center;
+	justify-content: center
+}
+
+.clitoral__content>p{
+ background-color: white;
+ color:black;
+ font-family: "Lato", sans-serif;
+}

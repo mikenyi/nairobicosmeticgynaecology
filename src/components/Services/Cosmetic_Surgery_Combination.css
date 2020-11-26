@@ -1,0 +1,31 @@
+.combination__main{
+	max-width: 600px;
+ 	margin: 100px auto;
+}
+
+.combination__image{
+	margin-left: 20px;
+
+}
+.combination__image>img{
+	width: 200px;
+ 	height: auto;
+}
+
+.combination__content>h3{
+	font-family: "Lato", sans-serif;
+}
+.combination__main>h1{
+	position: relative;
+	position: fixed;
+	top:35px;
+	left:20px;
+	text-align: center;
+	justify-content: center
+}
+
+.combination__content>p{
+ background-color: white;
+ color:black;
+ font-family: "Lato", sans-serif;
+}

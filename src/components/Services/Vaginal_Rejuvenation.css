@@ -1,0 +1,31 @@
+.vaginal__main{
+ 	max-width: 600px;
+ 	margin: 100px auto;
+}
+
+.vaginal__image{
+	margin-left: 20px;
+
+}
+.vaginal__image>img{
+	width: 200px;
+ 	height: auto;
+}
+.vaginal__main>h1{
+	position: relative;
+	position: fixed;
+	top:35px;
+	left:20px;
+	text-align: center;
+	justify-content: center
+}
+
+.vaginal__content>h3{
+	font-family: "Lato", sans-serif;
+}
+
+.vaginal__content>p{
+ background-color: white;
+ color:black;
+ font-family: "Lato", sans-serif;
+}

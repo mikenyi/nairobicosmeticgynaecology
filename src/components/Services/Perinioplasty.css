@@ -1,0 +1,30 @@
+.perinioplasty__main{
+ 	max-width: 600px;
+ 	margin: 100px auto;
+}
+
+.perinioplasty__image{
+	margin-left: 20px;
+
+}
+.perinioplasty__image>img{
+	width: 200px;
+ 	height: auto;
+}
+.perinioplasty__main>h1{
+	position: relative;
+	position: fixed;
+	top:35px;
+	left:20px;
+	text-align: center;
+	justify-content: center
+}
+.perinioplasty__content>h3{
+	font-family: "Lato", sans-serif;
+}
+
+.perinioplasty__content>p{
+ background-color: white;
+ color:black;
+ font-family: "Lato", sans-serif;
+}
