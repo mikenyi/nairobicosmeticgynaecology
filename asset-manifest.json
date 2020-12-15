@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/nairobicosmeticgynecology/static/css/main.edb505a5.chunk.css",
-    "main.js": "/nairobicosmeticgynecology/static/js/main.fe283399.chunk.js",
-    "main.js.map": "/nairobicosmeticgynecology/static/js/main.fe283399.chunk.js.map",
+    "main.css": "/nairobicosmeticgynecology/static/css/main.00d8d91d.chunk.css",
+    "main.js": "/nairobicosmeticgynecology/static/js/main.3703cbb9.chunk.js",
+    "main.js.map": "/nairobicosmeticgynecology/static/js/main.3703cbb9.chunk.js.map",
     "runtime-main.js": "/nairobicosmeticgynecology/static/js/runtime-main.9bc2cad1.js",
     "runtime-main.js.map": "/nairobicosmeticgynecology/static/js/runtime-main.9bc2cad1.js.map",
-    "static/js/2.21f02454.chunk.js": "/nairobicosmeticgynecology/static/js/2.21f02454.chunk.js",
-    "static/js/2.21f02454.chunk.js.map": "/nairobicosmeticgynecology/static/js/2.21f02454.chunk.js.map",
+    "static/js/2.52bac091.chunk.js": "/nairobicosmeticgynecology/static/js/2.52bac091.chunk.js",
+    "static/js/2.52bac091.chunk.js.map": "/nairobicosmeticgynecology/static/js/2.52bac091.chunk.js.map",
     "static/js/3.a7080887.chunk.js": "/nairobicosmeticgynecology/static/js/3.a7080887.chunk.js",
     "static/js/3.a7080887.chunk.js.map": "/nairobicosmeticgynecology/static/js/3.a7080887.chunk.js.map",
     "index.html": "/nairobicosmeticgynecology/index.html",
-    "static/css/main.edb505a5.chunk.css.map": "/nairobicosmeticgynecology/static/css/main.edb505a5.chunk.css.map",
-    "static/js/2.21f02454.chunk.js.LICENSE.txt": "/nairobicosmeticgynecology/static/js/2.21f02454.chunk.js.LICENSE.txt",
+    "static/css/main.00d8d91d.chunk.css.map": "/nairobicosmeticgynecology/static/css/main.00d8d91d.chunk.css.map",
+    "static/js/2.52bac091.chunk.js.LICENSE.txt": "/nairobicosmeticgynecology/static/js/2.52bac091.chunk.js.LICENSE.txt",
     "static/media/evan-dvorkin-5nnIufm6ecI-unsplash.949af2b5.jpg": "/nairobicosmeticgynecology/static/media/evan-dvorkin-5nnIufm6ecI-unsplash.949af2b5.jpg",
     "static/media/fifth_Avenue.b6cec2c4.jpg": "/nairobicosmeticgynecology/static/media/fifth_Avenue.b6cec2c4.jpg",
     "static/media/justin-essah-YZqNFG9WVYU-unsplash.3c9352d7.jpg": "/nairobicosmeticgynecology/static/media/justin-essah-YZqNFG9WVYU-unsplash.3c9352d7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9bc2cad1.js",
-    "static/js/2.21f02454.chunk.js",
-    "static/css/main.edb505a5.chunk.css",
-    "static/js/main.fe283399.chunk.js"
+    "static/js/2.52bac091.chunk.js",
+    "static/css/main.00d8d91d.chunk.css",
+    "static/js/main.3703cbb9.chunk.js"
   ]
 }
