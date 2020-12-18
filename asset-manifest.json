@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nairobicosmeticgynecology/static/css/main.9361e311.chunk.css",
-    "main.js": "/nairobicosmeticgynecology/static/js/main.fbd85a52.chunk.js",
-    "main.js.map": "/nairobicosmeticgynecology/static/js/main.fbd85a52.chunk.js.map",
+    "main.js": "/nairobicosmeticgynecology/static/js/main.08a976fe.chunk.js",
+    "main.js.map": "/nairobicosmeticgynecology/static/js/main.08a976fe.chunk.js.map",
     "runtime-main.js": "/nairobicosmeticgynecology/static/js/runtime-main.34de662b.js",
     "runtime-main.js.map": "/nairobicosmeticgynecology/static/js/runtime-main.34de662b.js.map",
     "static/js/2.3f4b0ba4.chunk.js": "/nairobicosmeticgynecology/static/js/2.3f4b0ba4.chunk.js",
@@ -12,14 +12,21 @@
     "index.html": "/nairobicosmeticgynecology/index.html",
     "static/css/main.9361e311.chunk.css.map": "/nairobicosmeticgynecology/static/css/main.9361e311.chunk.css.map",
     "static/js/2.3f4b0ba4.chunk.js.LICENSE.txt": "/nairobicosmeticgynecology/static/js/2.3f4b0ba4.chunk.js.LICENSE.txt",
+    "static/media/clitoralhood_diagram.9b1ef5bb.jpg": "/nairobicosmeticgynecology/static/media/clitoralhood_diagram.9b1ef5bb.jpg",
     "static/media/evan-dvorkin-5nnIufm6ecI-unsplash.949af2b5.jpg": "/nairobicosmeticgynecology/static/media/evan-dvorkin-5nnIufm6ecI-unsplash.949af2b5.jpg",
+    "static/media/fgm_illustratiive.6922fb06.png": "/nairobicosmeticgynecology/static/media/fgm_illustratiive.6922fb06.png",
     "static/media/fifth_Avenue.b6cec2c4.jpg": "/nairobicosmeticgynecology/static/media/fifth_Avenue.b6cec2c4.jpg",
-    "static/media/justin-essah-YZqNFG9WVYU-unsplash.3c9352d7.jpg": "/nairobicosmeticgynecology/static/media/justin-essah-YZqNFG9WVYU-unsplash.3c9352d7.jpg"
+    "static/media/hymenoplasty_diagram.d3590d82.jpg": "/nairobicosmeticgynecology/static/media/hymenoplasty_diagram.d3590d82.jpg",
+    "static/media/justin-essah-YZqNFG9WVYU-unsplash.3c9352d7.jpg": "/nairobicosmeticgynecology/static/media/justin-essah-YZqNFG9WVYU-unsplash.3c9352d7.jpg",
+    "static/media/kal-visuals-h3sgSxW5xHE-unsplash.8431fe59.jpg": "/nairobicosmeticgynecology/static/media/kal-visuals-h3sgSxW5xHE-unsplash.8431fe59.jpg",
+    "static/media/labiaplasty_diagram.428cffa1.jpg": "/nairobicosmeticgynecology/static/media/labiaplasty_diagram.428cffa1.jpg",
+    "static/media/pam-sharpe-uJIGWpC3Oao-unsplash.c61fa1db.jpg": "/nairobicosmeticgynecology/static/media/pam-sharpe-uJIGWpC3Oao-unsplash.c61fa1db.jpg",
+    "static/media/vaginoplasty_diagram.a486a46e.jpg": "/nairobicosmeticgynecology/static/media/vaginoplasty_diagram.a486a46e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.34de662b.js",
     "static/js/2.3f4b0ba4.chunk.js",
     "static/css/main.9361e311.chunk.css",
-    "static/js/main.fbd85a52.chunk.js"
+    "static/js/main.08a976fe.chunk.js"
   ]
 }
