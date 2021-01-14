@@ -1,17 +1,28 @@
 .fgm__main{
 	max-width: 600px;
-	margin: 100px auto;
+ 	margin: 100px auto;
 }
 
+.fgm__firstContainer{
+	display: flex;
+  flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
+.fgm__secondContainer{
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
 .fgm__image{
-	margin-left: 20px;
+	margin-left: 5px;
+	margin: 10px;
+	padding:5px;
 
 }
 .fgm__image>img{
 	width: 200px;
  	height: auto;
 }
-
 .fgm__main>h1{
 	position: relative;
 	position: fixed;
@@ -21,12 +32,49 @@
 	justify-content: center
 }
 
-.fgm__content>h3{
-	font-family: "Lato", sans-serif;
+.fgm__content{
+	margin: auto 5px;
 }
 
-.fgm__content>p{
+.fgm__content>p, .fgm__content2>p, .fgm__faqConatianer>p{
  background-color: white;
  color:black;
  font-family: "Lato", sans-serif;
+ margin:5px;
+}
+
+.fgm__showMoreContainer >button, .fgm__moreInfoContainer>button{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  background: #f44336;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.fa-caret-up {
+  float: right;
+  padding-right: 8px;
+ }
+
+.fgm__showMoreContainer>h4{
+	margin:1px;
+}
+
+.fgm__hideFaq, .fgm__showFaq {
+  background-color: #4CAF50; /* Green */
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
 }

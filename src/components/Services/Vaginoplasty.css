@@ -3,15 +3,25 @@
  	margin: 100px auto;
 }
 
+.vaginoplasty__firstContainer{
+	display: flex;
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
+.vaginoplasty__secondContainer{
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
 .vaginoplasty__image{
-	margin-left: 20px;
+	margin-left: 5px;
+	margin: 10px;
+	padding:5px;
 
 }
 .vaginoplasty__image>img{
 	width: 200px;
  	height: auto;
 }
-
 .vaginoplasty__main>h1{
 	position: relative;
 	position: fixed;
@@ -20,12 +30,53 @@
 	text-align: center;
 	justify-content: center
 }
-.vaginoplasty__content>h3{
-	font-family: "Lato", sans-serif;
+
+.vaginoplasty__content{
+	margin: auto 5px;
 }
 
-.vaginoplasty__content>p{
+.vaginoplasty__content>p, .vaginoplasty__content2>p, .vaginoplasty__faqConatianer>p{
  background-color: white;
  color:black;
  font-family: "Lato", sans-serif;
+ margin:5px;
+}
+.vaginoplasty__showMoreContainer >button, .vaginoplasty__moreInfoContainer>button{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  background: #f44336;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.fa-caret-up {
+  float: right;
+  padding-right: 8px;
+ }
+
+.vaginoplasty__showMoreContainer>h4{
+	margin:1px;
+}
+
+.vaginoplasty__hideFaq, .vaginoplasty__showFaq {
+  background-color: #4CAF50; /* Green */
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+iframe{
+  margin: 5px auto;
 }

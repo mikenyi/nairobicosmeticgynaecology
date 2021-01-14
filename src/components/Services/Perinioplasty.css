@@ -1,17 +1,28 @@
-.perinioplasty__main{
- 	max-width: 600px;
+.perineoplasty__main{
+	max-width: 600px;
  	margin: 100px auto;
 }
 
-.perinioplasty__image{
-	margin-left: 20px;
+.perineoplasty__firstContainer{
+	display: flex;
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
+.perineoplasty__secondContainer{
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
+.perineoplasty__image{
+	margin-left: 5px;
+	margin: 10px;
+	padding:5px;
 
 }
-.perinioplasty__image>img{
+.perineoplasty__image>img{
 	width: 200px;
  	height: auto;
 }
-.perinioplasty__main>h1{
+.perineoplasty__main>h1{
 	position: relative;
 	position: fixed;
 	top:35px;
@@ -19,12 +30,49 @@
 	text-align: center;
 	justify-content: center
 }
-.perinioplasty__content>h3{
-	font-family: "Lato", sans-serif;
+
+.perineoplasty__content{
+	margin: auto 5px;
 }
 
-.perinioplasty__content>p{
+.perineoplasty__content>p, .perineoplasty__content2>p, .perineoplasty__faqConatianer>p{
  background-color: white;
  color:black;
  font-family: "Lato", sans-serif;
+ margin:5px;
+}
+.perineoplasty__showMoreContainer >button, .perineoplasty__moreInfoContainer>button{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  background: #f44336;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.fa-caret-up {
+  float: right;
+  padding-right: 8px;
+ }
+
+.perineoplasty__showMoreContainer>h4{
+	margin:1px;
+}
+
+.perineoplasty__hideFaq, .perineoplasty__showFaq {
+  background-color: #4CAF50; /* Green */
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
 }

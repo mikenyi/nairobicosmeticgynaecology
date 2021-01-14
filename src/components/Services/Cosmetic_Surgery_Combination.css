@@ -5,6 +5,8 @@
 
 .combination__image{
 	margin-left: 20px;
+	float:left;
+	margin:20px;
 
 }
 .combination__image>img{

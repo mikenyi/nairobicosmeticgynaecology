@@ -3,8 +3,19 @@
  	margin: 100px auto;
 }
 
+.labiaplasty__firstContainer{
+	display: flex;
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
+.labiaplasty__secondContainer{
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
 .labiaplasty__image{
-	margin-left: 20px;
+	margin-left: 5px;
+	margin: 10px;
+	padding:5px;
 
 }
 .labiaplasty__image>img{
@@ -20,12 +31,52 @@
 	justify-content: center
 }
 
-.labiaplasty__content>h3{
-	font-family: "Lato", sans-serif;
+.labiaplasty__content{
+	margin: auto 5px;
 }
 
-.labiaplasty__content>p{
+.labiaplasty__content>p, .labiaplasty__content2>p, .labiaplasty__faqConatianer>p{
  background-color: white;
  color:black;
  font-family: "Lato", sans-serif;
+ margin: 5px;
+}
+.labiaplasty__showMoreContainer >button, .labiaplasty__moreInfoContainer>button{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  background: #f44336;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.fa-caret-up {
+  float: right;
+  padding-right: 8px;
+ }
+
+.labiaplasty__showMoreContainer>h4{
+	margin:1px;
+}
+
+.labiaplasty__hideFaq, .labiaplasty__showFaq {
+  background-color: #4CAF50; /* Green */
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.clitoral__faqConatianer{
+
 }

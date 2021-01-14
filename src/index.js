@@ -5,6 +5,7 @@ import App from './App';
 import reducer, { initialState } from './components/reducer';
 import { StateProvider } from "./components/StateProvider";
 import reportWebVitals from './reportWebVitals';
+import 'babel-polyfill';
 
 ReactDOM.render(
   <React.StrictMode>

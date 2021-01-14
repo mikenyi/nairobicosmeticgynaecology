@@ -5,11 +5,14 @@
 
 .vaginal__image{
 	margin-left: 20px;
+	float:left;
+	margin: 20px;
 
 }
 .vaginal__image>img{
 	width: 200px;
  	height: auto;
+ 	object-fit: cover;
 }
 .vaginal__main>h1{
 	position: relative;
