@@ -1,8 +1,21 @@
+
+
 .clitoral__main{
-	max-width: 600px;
- 	margin: 100px auto;
+  width: 100%;
+  height: auto;
+  position:absolute;
+  background-attachment:fixed;
+
+}
+.clitoral__spacer{
+  height: 300px;
 }
 
+.clitoral__mainContainer{
+  background-color:white;
+  max-width: 500px;
+  margin:60px auto;
+}
 .clitoral__firstContainer{
 	display: flex;
   flex-wrap: wrap;
@@ -14,26 +27,27 @@
 	margin-bottom: 5px;
 }
 .clitoral__image{
-	margin-left: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
 	margin: 10px;
 	padding:5px;
 
 }
 .clitoral__image>img{
-	width: 200px;
+  margin-top: 20px;
+	width: 300px;
  	height: auto;
 }
-.clitoral__main>h1{
+.clitoral__mainContainer>h1{
 	position: relative;
 	position: fixed;
 	top:35px;
-	left:20px;
-	text-align: center;
-	justify-content: center
+  text-align: center;
+
 }
 
 .clitoral__content{
-	margin: auto 5px;
+	margin: 5px auto;
 }
 
 .clitoral__content>p, .clitoral__content2>p, .clitoral__faqConatianer>p{
@@ -77,3 +91,4 @@
   cursor: pointer;
   outline: none;
 }
+

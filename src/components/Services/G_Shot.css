@@ -1,4 +1,4 @@
-.labiaplasty__main{
+.G-Shot__main{
   width: 100%;
   height: auto;
   position:absolute;
@@ -7,55 +7,55 @@
 
 }
 
-.labiaplasty__mainContainer{
+.G-Shot__mainContainer{
   background-color:white;
   max-width: 500px;
   margin:60px auto;
 }
 
-.labiaplasty__spacer{
+.G-Shot__spacer{
   height: 300px;
 }
 
-.labiaplasty__firstContainer{
+.G-Shot__firstContainer{
   display: flex;
   flex-wrap: wrap;
 	border-bottom: 1px solid black;
 	margin-bottom: 5px;
 }
-.labiaplasty__secondContainer{
+.G-Shot__secondContainer{
 	border-bottom: 1px solid black;
 	margin-bottom: 5px;
 }
-.labiaplasty__image{
+.G-Shot__image{
 	margin-left: 5px;
 	margin: 10px;
 	padding:5px;
-
 }
-.labiaplasty__image>img{
-	width: 300px;
+
+.G-Shot__image>img{
+	width: 250px;
    height: auto;
    margin-top: 20px;
 }
-.labiaplasty__mainContainer>h1{
+.G-Shot__mainContainer>h1{
 	position: relative;
 	position: fixed;
 	top:35px;
-	text-align: center;
+  text-align: center;
 }
 
-.labiaplasty__content{
+.G-Shot__content{
 	margin: auto 5px;
 }
 
-.labiaplasty__content>p, .labiaplasty__content2>p, .labiaplasty__faqConatianer>p{
+.G-Shot__content>p, .G-Shot__content2>p, .G-Shot__faqConatianer>p{
  background-color: white;
  color:black;
  font-family: "Lato", sans-serif;
  margin: 5px;
 }
-.labiaplasty__showMoreContainer >button, .labiaplasty__moreInfoContainer>button{
+.G-Shot__showMoreContainer >button, .G-Shot__moreInfoContainer>button{
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
@@ -73,11 +73,11 @@
   padding-right: 8px;
  }
 
-.labiaplasty__showMoreContainer>h4{
+.G-Shot__showMoreContainer>h4{
 	margin:1px;
 }
 
-.labiaplasty__hideFaq, .labiaplasty__showFaq {
+.G-Shot__hideFaq, .G-Shot__showFaq {
   background-color: #4CAF50; /* Green */
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -91,6 +91,4 @@
   outline: none;
 }
 
-.clitoral__faqConatianer{
 
-}

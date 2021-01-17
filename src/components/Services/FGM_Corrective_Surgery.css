@@ -1,6 +1,21 @@
+
 .fgm__main{
-	max-width: 600px;
- 	margin: 100px auto;
+  width: 100%;
+  height: auto;
+  position:absolute;
+  top:0;
+  background-attachment:fixed;
+
+}
+
+.fgm__mainContainer{
+  background-color:white;
+  max-width: 500px;
+  margin:60px auto;
+}
+
+.fgm__spacer{
+  height: 300px;
 }
 
 .fgm__firstContainer{
@@ -15,21 +30,20 @@
 }
 .fgm__image{
 	margin-left: 5px;
-	margin: 10px;
+	margin: 5px;
 	padding:5px;
 
 }
 .fgm__image>img{
-	width: 200px;
+  width: 300px;
+  margin-top: 30px;
  	height: auto;
 }
-.fgm__main>h1{
+.fgm__mainContainer>h1{
 	position: relative;
 	position: fixed;
 	top:35px;
-	left:20px;
 	text-align: center;
-	justify-content: center
 }
 
 .fgm__content{

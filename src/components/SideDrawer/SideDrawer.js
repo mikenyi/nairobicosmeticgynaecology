@@ -40,6 +40,9 @@ function SideDrawer (){
 			        <Link to="/nairobicosmeticgynecology/vaginoplasty" onClick={ ToggleBugger }>Vaginoplasty</Link>
 			        <Link to="/nairobicosmeticgynecology/fgm_corrective_surgery" onClick={ ToggleBugger }>FGM corrective surgery</Link>
 			        <Link to="/nairobicosmeticgynecology/clitoral_hood_reduction" onClick={ ToggleBugger }>Clitorial Hood Reduction</Link>
+					<Link to="/nairobicosmeticgynecology/o-shot" onClick={ ToggleBugger }>O-Shot</Link>
+			        <Link to="/nairobicosmeticgynecology/g-shot" onClick={ ToggleBugger }>G-Shot</Link>
+			        <Link to="/nairobicosmeticgynecology/p-shot" onClick={ ToggleBugger }>P-Shot</Link>
 			      </div>
 			</div>
 			  <div className="navbar__options">

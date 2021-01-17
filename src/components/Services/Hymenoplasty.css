@@ -1,10 +1,26 @@
 .hymenoplasty__main{
-	max-width: 600px;
- 	margin: 100px auto;
+  width: 100%;
+  height: auto;
+  position:absolute;
+  top:0;
+  background-attachment:fixed;
+
 }
 
+.hymenoplasty__mainContainer{
+  background-color:white;
+  max-width: 500px;
+  margin:60px auto;
+}
+
+.hymenoplasty__spacer{
+  height: 300px;
+}
+
+
 .hymenoplasty__firstContainer{
-	display: flex;
+  display: flex;
+  flex-wrap: wrap;
 	border-bottom: 1px solid black;
 	margin-bottom: 5px;
 }
@@ -19,16 +35,15 @@
 
 }
 .hymenoplasty__image>img{
-	width: 200px;
+  width: 300px;
+  margin-top: 20px;
  	height: auto;
 }
-.hymenoplasty__main>h1{
+.hymenoplasty__mainContainer>h1{
 	position: relative;
 	position: fixed;
 	top:35px;
-	left:20px;
 	text-align: center;
-	justify-content: center
 }
 
 .hymenoplasty__content{

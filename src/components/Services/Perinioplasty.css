@@ -1,10 +1,24 @@
 .perineoplasty__main{
-	max-width: 600px;
- 	margin: 100px auto;
+  width: 100%;
+  height: auto;
+  position:absolute;
+  top:0;
+  background-attachment:fixed;
+
 }
 
+.perineoplasty__mainContainer{
+  background-color:white;
+  max-width: 500px;
+  margin:60px auto;
+}
+
+.perineoplasty__spacer{
+  height: 300px;
+}
 .perineoplasty__firstContainer{
-	display: flex;
+  display: flex;
+  flex-wrap: wrap;
 	border-bottom: 1px solid black;
 	margin-bottom: 5px;
 }
@@ -19,16 +33,15 @@
 
 }
 .perineoplasty__image>img{
-	width: 200px;
- 	height: auto;
+	width: 300px;
+   height: auto;
+   margin-top: 20px;
 }
-.perineoplasty__main>h1{
+.perineoplasty__mainContainer>h1{
 	position: relative;
 	position: fixed;
 	top:35px;
-	left:20px;
 	text-align: center;
-	justify-content: center
 }
 
 .perineoplasty__content{

@@ -11,6 +11,10 @@ import Perinioplasty from './components/Services/Perinioplasty';
 import Vaginoplasty from './components/Services/Vaginoplasty';
 import FGMCorrectiveSurgery from './components/Services/FGM_Corrective_Surgery';
 import ClitoralHoodReduction from './components/Services/Clitoral_Hood_Reduction';
+import O_Shot from './components/Services/O_Shot';
+import G_Shot from './components/Services/G_Shot';
+import P_Shot from './components/Services/P_Shot';
+import Background from './components/photos/evan-dvorkin-5nnIufm6ecI-unsplash.jpg';
 
 
 class App extends React.Component {
@@ -19,40 +23,41 @@ class App extends React.Component {
     return (
       <Router>
         <div className="App">
-          
+           <NavigationBar />
           <Switch>
-            
             <Route path="/nairobicosmeticgynecology/contact">
-              <NavigationBar />
               <DoctorCard />
               <Location />
             </Route>
             <Route path="/nairobicosmeticgynecology/hymenoplasty">
-              <NavigationBar />
               <Hymenoplasty />
             </Route>
             <Route path="/nairobicosmeticgynecology/labiaplasty">
-              <NavigationBar />
+            
               <Labiaplasty />
             </Route>
             <Route path="/nairobicosmeticgynecology/perinioplasty">
-              <NavigationBar />
               <Perinioplasty />
             </Route>
             <Route path="/nairobicosmeticgynecology/vaginoplasty">
-              <NavigationBar />
               <Vaginoplasty />
             </Route>
             <Route path="/nairobicosmeticgynecology/fgm_corrective_surgery">
-              <NavigationBar />
               <FGMCorrectiveSurgery />
             </Route>
             <Route path="/nairobicosmeticgynecology/clitoral_hood_reduction">
-              <NavigationBar />
               <ClitoralHoodReduction />
             </Route>
+            <Route path="/nairobicosmeticgynecology/o-shot">
+              <O_Shot />
+            </Route>
+            <Route path="/nairobicosmeticgynecology/g-shot">
+              <G_Shot />
+            </Route>
+            <Route path="/nairobicosmeticgynecology/p-shot">
+              <P_Shot />
+            </Route>
             <Route path="/"> 
-              <NavigationBar />
               <Home />
             </Route>
           </Switch>
