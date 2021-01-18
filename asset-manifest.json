@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/nairobicosmeticgynecology/static/css/main.2f323f10.chunk.css",
-    "main.js": "/nairobicosmeticgynecology/static/js/main.7a5548ed.chunk.js",
-    "main.js.map": "/nairobicosmeticgynecology/static/js/main.7a5548ed.chunk.js.map",
+    "main.css": "/nairobicosmeticgynecology/static/css/main.188f780f.chunk.css",
+    "main.js": "/nairobicosmeticgynecology/static/js/main.d7ce137e.chunk.js",
+    "main.js.map": "/nairobicosmeticgynecology/static/js/main.d7ce137e.chunk.js.map",
     "runtime-main.js": "/nairobicosmeticgynecology/static/js/runtime-main.900d9c27.js",
     "runtime-main.js.map": "/nairobicosmeticgynecology/static/js/runtime-main.900d9c27.js.map",
-    "static/js/2.7d2ca5a7.chunk.js": "/nairobicosmeticgynecology/static/js/2.7d2ca5a7.chunk.js",
-    "static/js/2.7d2ca5a7.chunk.js.map": "/nairobicosmeticgynecology/static/js/2.7d2ca5a7.chunk.js.map",
+    "static/js/2.9252a16d.chunk.js": "/nairobicosmeticgynecology/static/js/2.9252a16d.chunk.js",
+    "static/js/2.9252a16d.chunk.js.map": "/nairobicosmeticgynecology/static/js/2.9252a16d.chunk.js.map",
     "static/js/3.62224553.chunk.js": "/nairobicosmeticgynecology/static/js/3.62224553.chunk.js",
     "static/js/3.62224553.chunk.js.map": "/nairobicosmeticgynecology/static/js/3.62224553.chunk.js.map",
     "index.html": "/nairobicosmeticgynecology/index.html",
-    "static/css/main.2f323f10.chunk.css.map": "/nairobicosmeticgynecology/static/css/main.2f323f10.chunk.css.map",
-    "static/js/2.7d2ca5a7.chunk.js.LICENSE.txt": "/nairobicosmeticgynecology/static/js/2.7d2ca5a7.chunk.js.LICENSE.txt",
+    "static/css/main.188f780f.chunk.css.map": "/nairobicosmeticgynecology/static/css/main.188f780f.chunk.css.map",
+    "static/js/2.9252a16d.chunk.js.LICENSE.txt": "/nairobicosmeticgynecology/static/js/2.9252a16d.chunk.js.LICENSE.txt",
     "static/media/O_Shot_diagram_more.jpg.78c8be40.webp": "/nairobicosmeticgynecology/static/media/O_Shot_diagram_more.jpg.78c8be40.webp",
     "static/media/clitoralhood_diagram.9b1ef5bb.jpg": "/nairobicosmeticgynecology/static/media/clitoralhood_diagram.9b1ef5bb.jpg",
     "static/media/contact.2b1444df.jpg": "/nairobicosmeticgynecology/static/media/contact.2b1444df.jpg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.900d9c27.js",
-    "static/js/2.7d2ca5a7.chunk.js",
-    "static/css/main.2f323f10.chunk.css",
-    "static/js/main.7a5548ed.chunk.js"
+    "static/js/2.9252a16d.chunk.js",
+    "static/css/main.188f780f.chunk.css",
+    "static/js/main.d7ce137e.chunk.js"
   ]
 }
