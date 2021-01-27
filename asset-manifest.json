@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nairobicosmeticgynecology/static/css/main.3208699f.chunk.css",
-    "main.js": "/nairobicosmeticgynecology/static/js/main.5c099805.chunk.js",
-    "main.js.map": "/nairobicosmeticgynecology/static/js/main.5c099805.chunk.js.map",
+    "main.js": "/nairobicosmeticgynecology/static/js/main.eb0f92f7.chunk.js",
+    "main.js.map": "/nairobicosmeticgynecology/static/js/main.eb0f92f7.chunk.js.map",
     "runtime-main.js": "/nairobicosmeticgynecology/static/js/runtime-main.a9cb54f4.js",
     "runtime-main.js.map": "/nairobicosmeticgynecology/static/js/runtime-main.a9cb54f4.js.map",
     "static/js/2.91d27c26.chunk.js": "/nairobicosmeticgynecology/static/js/2.91d27c26.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.a9cb54f4.js",
     "static/js/2.91d27c26.chunk.js",
     "static/css/main.3208699f.chunk.css",
-    "static/js/main.5c099805.chunk.js"
+    "static/js/main.eb0f92f7.chunk.js"
   ]
 }
