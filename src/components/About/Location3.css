@@ -12,13 +12,15 @@
 }
 
 .location__spacer{
-	height:70px;
+	height:0;
 }
 .location__container img{
 	width: 100%;
 }
 
-.location__container>a>h1:hover{
-	color: blue;
-	background-color: red;
+.location__container>a>button{
+	width:100%;
+	height:30px;
+	color:white;
+	background-color: green;
 }

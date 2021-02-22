@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Labiaplasty.css';
-import Background from '../photos/evan-dvorkin-5nnIufm6ecI-unsplash.jpg';
 import ProfileImg from '../photos/pam-sharpe-uJIGWpC3Oao-unsplash22.jpg.webp';
 import DiagramImg from '../photos/labiaplasty_diagram.jpg';
+import { Link } from 'react-router-dom';
 
 
  
@@ -29,13 +29,7 @@ function Labiaplasty () {
 		}
 	}
 	return(
-		<div className='labiaplasty__main'
-		style={{backgroundImage: `url(${Background})`,
-		backgroundPosition: "center",
-		backgroundSize: "cover",
-		backgroundRepeat: "no-repeat"
-		}}
-		>
+		<div className='labiaplasty__main'>
 			<div className="labiaplasty__mainContainer">
 				<h1 className="labiaplasty__heading">Labiaplasty</h1>
 				<div className='labiaplasty__firstContainer'>
@@ -99,6 +93,8 @@ function Labiaplasty () {
 					</div>
 				}
 				</div>
+				<Link to="/nairobicosmeticgynecology/perinioplasty"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+				<Link to="/nairobicosmeticgynecology/hymenoplasty"><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>
 			</div>
 			<div className="labiaplasty__spacer" style={{display:`${spacer}`}}></div>
 		</div>

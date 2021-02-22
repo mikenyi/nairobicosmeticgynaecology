@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './O_Shot.css';
-import Background from '../photos/evan-dvorkin-5nnIufm6ecI-unsplash.jpg';
 import ProfileImg from '../photos/O_Shot_diagram.jpg';
 import DiagramImg from '../photos/O_Shot_diagram_more.jpg.webp';
+import { Link } from 'react-router-dom';
 
 
  
@@ -29,13 +29,7 @@ function O_Shot () {
 		}
 	}
 	return(
-		<div className='O-Shot__main'
-		style={{backgroundImage: `url(${Background})`,
-		backgroundPosition: "center",
-		backgroundSize: "cover",
-		backgroundRepeat: "no-repeat"
-		}}
-		>
+		<div className='O-Shot__main'>
 			<div className="O-Shot__mainContainer">
 				<h1 className="O-Shot__heading"> O-Shot</h1>
 				<div className='O-Shot__firstContainer'>
@@ -44,9 +38,8 @@ function O_Shot () {
 					</div>
 					<div className='O-Shot__content'>
 						<p>
-						latelet rich plasma, or PRP, can be injected around the clitoris and within the vaginal walls to increase sensitivity and sexual pleasure in a procedure called the O-Shot. PRP is rich in growth platelets which helps to stimulate blood flow and cell growth where injected.
+						Platelet rich plasma, or PRP, can be injected around the clitoris and within the vaginal walls to increase sensitivity and sexual pleasure in a procedure called the O-Shot. PRP is rich in growth platelets which helps to stimulate blood flow and cell growth where injected.
 						</p>
-						
 					</div>
 				</div>
 				<div className='O-Shot__secondContainer'>
@@ -114,6 +107,8 @@ function O_Shot () {
 					</div>
 				}
 				</div>
+				<Link to="/nairobicosmeticgynecology/g-shot"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+				<Link to="/nairobicosmeticgynecology/clitoral_hood_reduction"><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>
 			</div>
 			<div className="O-Shot__spacer" style={{display:`${spacer}`}}></div>
 		</div>

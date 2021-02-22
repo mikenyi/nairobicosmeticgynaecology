@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './G_Shot.css';
-import Background from '../photos/evan-dvorkin-5nnIufm6ecI-unsplash.jpg';
 import ProfileImg from '../photos/G_Shot_diagram.jpg';
 import DiagramImg from '../photos/G_Shot_diagram_more.jpg';
+import { Link } from 'react-router-dom';
 
 
  
@@ -29,13 +29,7 @@ function G_Shot () {
 		}
 	}
 	return(
-		<div className='G-Shot__main'
-		style={{backgroundImage: `url(${Background})`,
-		backgroundPosition: "center",
-		backgroundSize: "cover",
-		backgroundRepeat: "no-repeat"
-		}}
-		>
+		<div className='G-Shot__main'>
 			<div className="G-Shot__mainContainer" >
 				<h1 className="G-Shot__heading">G-Shot</h1>
 				<div className='G-Shot__firstContainer'>
@@ -44,7 +38,7 @@ function G_Shot () {
 					</div>
 					<div className='G-Shot__content'>
 						<p>
-						The G-spot is a sensitive area of the anterior vaginal wall that some women enjoy having stimulated during sexual activity. Injecting hyaluronic acid within the G-spot is intended to increase the sensitivity of the area, making it easier to achieve an orgasm.
+						The G-spot is a sensitive area of the anterior vaginal wall that some women enjoy having stimulated during sexual activity. Injecting platelet-rich plasma within the G-spot is intended to increase the sensitivity of the area, making it easier to achieve an orgasm.
 						</p>
 						
 					</div>
@@ -110,6 +104,8 @@ function G_Shot () {
 					</div>
 				}
 				</div>
+				<Link to="/nairobicosmeticgynecology/p-shot"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+				<Link to="/nairobicosmeticgynecology/o-shot"><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>
 			</div>
 			<div className="G-Shot__spacer" style={{display:`${spacer}`}}></div>
 		</div>

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Perinioplasty.css';
-import Background from '../photos/evan-dvorkin-5nnIufm6ecI-unsplash.jpg';
 import ProfileImg from '../photos/kal-visuals-h3sgSxW5xHE-unsplash22.jpg';
 import DiagramImg from '../photos/perineoplast_diagram.jpg';
+import { Link } from 'react-router-dom';
 
 
 function Perinioplasty(){
@@ -29,13 +29,7 @@ function Perinioplasty(){
 	}
 
 	return(
-		<div className='perineoplasty__main'
-		style={{backgroundImage: `url(${Background})`,
-		backgroundPosition: "center",
-		backgroundSize: "cover",
-		backgroundRepeat: "no-repeat"
-		}}
-		>
+		<div className='perineoplasty__main'>
 			<div className="perineoplasty__mainContainer">
 				<h1 className="perineoplasty__heading">Perineoplasty</h1>
 				<div className='perineoplasty__firstContainer'>
@@ -113,6 +107,8 @@ function Perinioplasty(){
 					</div>
 				}
 				</div>
+				<Link to="/nairobicosmeticgynecology/vaginoplasty"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+				<Link to="/nairobicosmeticgynecology/labiaplasty"><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>
 			</div>
 			<div className="perineoplasty__spacer" style={{display:`${spacer}`}}></div>
 		</div>

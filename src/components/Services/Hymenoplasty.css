@@ -4,10 +4,13 @@
   position:absolute;
   top:0;
   background-attachment:fixed;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right,rgb(79,25,60), rgb(40,13,28));
 
 }
 
 .hymenoplasty__mainContainer{
+  position:relative;
   background-color:white;
   max-width: 500px;
   margin:60px auto;
@@ -44,6 +47,30 @@
 	position: fixed;
 	top:35px;
 	text-align: center;
+}
+.fa-arrow-right{
+  position:absolute;
+  right:0;
+  color:black;
+  top:40%;
+  z-index:50;
+  position:fixed;
+  font-size: 50px;
+  opacity: 0.3;
+}
+.fa-arrow-left{
+  position:absolute;
+  left:0;
+  color:black;
+  top:40%;
+  z-index:50;
+  position:fixed;
+  font-size: 50px;
+  opacity: 0.3;
+}
+.fa-arrow-left:active, .fa-arrow-right:active, .fa-arrow-left:hover, .fa-arrow-right:hover{
+  color: red;
+  opacity: 0.7;
 }
 
 .hymenoplasty__content{

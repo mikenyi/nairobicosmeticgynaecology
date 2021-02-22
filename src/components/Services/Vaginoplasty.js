@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Vaginoplasty.css';
-import Background from '../photos/evan-dvorkin-5nnIufm6ecI-unsplash.jpg';
 import ProfileImg from '../photos/justin-essah-YZqNFG9WVYU-unsplash22.jpg';
 import DiagramImg from '../photos/vaginoplasty_diagram.jpg';
+import { Link } from 'react-router-dom';
 
 
 function Vaginoplasty(){
@@ -28,13 +28,7 @@ function Vaginoplasty(){
 		}
 	}
 	return(
-		<div className='vaginoplasty__main'
-		style={{backgroundImage: `url(${Background})`,
-		backgroundPosition: "center",
-		backgroundSize: "cover",
-		backgroundRepeat: "no-repeat"
-		}}
-		>
+		<div className='vaginoplasty__main'>
 			<div className="vaginoplasty__mainContainer">
 				<h1 className="vaginoplasty__heading">Vaginoplasty</h1>
 				<div className='vaginoplasty__firstContainer'>
@@ -100,6 +94,8 @@ function Vaginoplasty(){
 					</div>
 				}
 				</div>
+				<Link to="/nairobicosmeticgynecology/fgm_corrective_surgery"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+				<Link to="/nairobicosmeticgynecology/perinioplasty"><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>
 			</div>
 			<div className="vaginoplasty__spacer" style={{display:`${spacer}`}}></div>
 		</div>

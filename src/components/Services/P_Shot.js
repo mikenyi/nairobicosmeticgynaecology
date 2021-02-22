@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './P_Shot.css';
-import Background from '../photos/evan-dvorkin-5nnIufm6ecI-unsplash.jpg';
 import ProfileImg from '../photos/P_Shot_diagram.jpg';
 import DiagramImg from '../photos/P_Shot_diagram_more.jpg';
+import { Link } from 'react-router-dom';
 
 
  
@@ -29,13 +29,7 @@ function P_Shot () {
 		}
 	}
 	return(
-		<div className='P-Shot__main'
-		style={{backgroundImage: `url(${Background})`,
-		backgroundPosition: "center",
-		backgroundSize: "cover",
-		backgroundRepeat: "no-repeat"
-		}}
-		>
+		<div className='P-Shot__main'>
 			<div className="P-Shot__mainContainer">
 				<h1 className="P-Shot__heading">P-Shot</h1>
 				<div className='P-Shot__firstContainer'>
@@ -86,9 +80,6 @@ function P_Shot () {
 								</li>
 							</ul>
 							</p>
-							<p>
-							For some women, the labia minora or inner labia can be bothersome. While having labia minora that are longer or have multiple folds is completely normal, some women can feel uncomfortable. Women can have discomfort with intercourse, bicycling, or when they wear tight clothing or bathing suits. Some women do not have any physical complaints, but rather do not like the look of what they consider to be large labia.
-							</p>
 						</div>
 					</div>
 				}
@@ -122,6 +113,7 @@ function P_Shot () {
 					</div>
 				}
 				</div>
+				<Link to="/nairobicosmeticgynecology/g-shot"><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>
 			</div>
 			<div className="P-Shot__spacer" style={{display:`${spacer}`}}></div>
 		</div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navigation.css';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+import Logo from '../photos/logo.jpg';
 import { Link } from 'react-router-dom';
 
 function Navigation(){
@@ -9,7 +10,7 @@ function Navigation(){
 		<header className="navigation__header" >
 			<nav className="navigation__nav">
 				<div className="navigation__logo">
-					<Link to="/nairobicosmeticgynecology"><h1>THE LOGO</h1></Link>
+					<Link to="/nairobicosmeticgynaecology"><img src={ Logo } alt="Nairobi Cosmetics gynaecology Logo" width="56" height="56"/></Link>
 				</div>
 				<div className="navigation__spacer">
 				</div>
@@ -22,20 +23,20 @@ function Navigation(){
 						    <button className="dropbtn">Services  <i class="fa fa-caret-down"></i>
 						    </button>
 						    <div className="dropdown-container">
-						      <Link to="/nairobicosmeticgynecology/hymenoplasty"><p>Hymenoplasty</p></Link>
-						      <Link to="/nairobicosmeticgynecology/labiaplasty"><p>Labiaplasty</p></Link>
-						      <Link to="/nairobicosmeticgynecology/perinioplasty"><p>Perinioplasty</p></Link>
-						      <Link to="/nairobicosmeticgynecology/vaginoplasty"><p>Vaginoplasty</p></Link>
-						      <Link to="/nairobicosmeticgynecology/fgm_corrective_surgery"><p>FGM corrective surgery</p></Link>
-						      <Link to="/nairobicosmeticgynecology/clitoral_hood_reduction"><p>Clitorial Hood Reduction</p></Link>
-							  <Link to="/nairobicosmeticgynecology/o-shot"><p>O-Shot</p></Link>
-							  <Link to="/nairobicosmeticgynecology/g-shot"><p>G-Shot</p></Link>
-							  <Link to="/nairobicosmeticgynecology/p-shot"><p>P-Shot</p></Link>
+						      <Link to="/nairobicosmeticgynaecology/hymenoplasty"><p>Hymenoplasty</p></Link>
+						      <Link to="/nairobicosmeticgynaecology/labiaplasty"><p>Labiaplasty</p></Link>
+						      <Link to="/nairobicosmeticgynaecology/perinioplasty"><p>Perineoplasty</p></Link>
+						      <Link to="/nairobicosmeticgynaecology/vaginoplasty"><p>Vaginoplasty</p></Link>
+						      <Link to="/nairobicosmeticgynaecology/fgm_corrective_surgery"><p>FGM corrective surgery</p></Link>
+						      <Link to="/nairobicosmeticgynaecology/clitoral_hood_reduction"><p>Clitorial Hood Reduction</p></Link>
+							  <Link to="/nairobicosmeticgynaecology/o-shot"><p>O-Shot</p></Link>
+							  <Link to="/nairobicosmeticgynaecology/g-shot"><p>G-Shot</p></Link>
+							  <Link to="/nairobicosmeticgynaecology/p-shot"><p>P-Shot</p></Link>
 						    </div>
 					    </div> 
 					</div>
 					<div className="navigation__options">
-						<Link to="/nairobicosmeticgynecology/contact"><span>Contacts</span></Link>
+						<Link to="/nairobicosmeticgynaecology/contact"><span>Contact Us</span></Link>
 					</div>
 				</div>
 				<div className="navigation__burger">

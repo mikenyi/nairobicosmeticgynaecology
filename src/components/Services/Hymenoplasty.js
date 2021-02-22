@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import './Hymenoplasty.css';
-import Background from '../photos/evan-dvorkin-5nnIufm6ecI-unsplash.jpg';
 import ProfileImg from '../photos/justin-essah-YZqNFG9WVYU-unsplash2.jpg';
 import DiagramImg from '../photos/hymenoplasty_diagram.jpg';
+import { Link } from 'react-router-dom';
+
 
 function Hymenoplasty(){
 
@@ -27,13 +28,7 @@ function Hymenoplasty(){
 		}
 	}
 	return(
-		<div className='hymenoplasty__main'
-		style={{backgroundImage: `url(${Background})`,
-		backgroundPosition: "center",
-		backgroundSize: "cover",
-		backgroundRepeat: "no-repeat"
-		}}
-		>
+		<div className='hymenoplasty__main'>
 			<div className="hymenoplasty__mainContainer">
 				<h1 className="hymenoplasty__heading">Hymenoplasty</h1>
 				<div className='hymenoplasty__firstContainer'>
@@ -46,6 +41,7 @@ function Hymenoplasty(){
 						</p>	
 					</div>
 				</div>
+				
 				<div className='hymenoplasty__secondContainer'>
 				{showLess?
 					<div className="hymenoplasty__showMoreContainer">
@@ -132,6 +128,7 @@ function Hymenoplasty(){
 					</div>
 				}
 				</div>
+				<Link to="/nairobicosmeticgynecology/labiaplasty"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
 			</div>
 			<div className="hymenoplasty__spacer" style={{display:`${spacer}`}}></div>
 		</div>

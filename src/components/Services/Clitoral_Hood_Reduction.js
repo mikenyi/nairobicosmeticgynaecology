@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Clitoral_Hood_Reduction.css';
-import Background from '../photos/evan-dvorkin-5nnIufm6ecI-unsplash.jpg';
 import ProfileImg from '../photos/kal-visuals-h3sgSxW5xHE-unsplash2.jpg';
 import DiagramImg from '../photos/clitoralhood_diagram.jpg';
+import { Link } from 'react-router-dom';
 
 
 function ClitoralHoodReduction(){
@@ -28,13 +28,7 @@ function ClitoralHoodReduction(){
 		}
 	}
 	return(
-		<div className='clitoral__main'
-		style={{backgroundImage: `url(${Background})`,
-		backgroundPosition: "center",
-		backgroundSize: "cover",
-		backgroundRepeat: "no-repeat"
-		}}
-		>
+		<div className='clitoral__main'>
 			<div className="clitoral__mainContainer">
 				
 				<h1 className="clitoral__heading">Clitoral Hood Reduction</h1>
@@ -68,7 +62,7 @@ function ClitoralHoodReduction(){
 							That flap is your clitoral hood, a fold of skin that surrounds and protects your glans clitoris. It’s basically the female equivalent of the male foreskin. And just like labia, clitoral hoods come in all shapes, sizes, and colors.
 							</p>
 							<p>
-							Clitoral hoodoplasty, clitoral hoodectomy or clitoral hood reduction surgery as it's commonly referred to, is a cosmetic gynecological procedure to reduce the amount of skin that covers the clitoris. When this excess tissue is removed, it's easier for women to get sexually aroused and eventually reach fulfillment. However, a clitoral hood reduction doesn't simply serve as a vaginal rejuvenation procedure to improve the quality of the orgasm. 
+							Clitoral hoodoplasty, clitoral hoodectomy or clitoral hood reduction surgery as it's commonly referred to, is a cosmetic gynaecological procedure to reduce the amount of skin that covers the clitoris. When this excess tissue is removed, it's easier for women to get sexually aroused and eventually reach fulfillment. However, a clitoral hood reduction doesn't simply serve as a vaginal rejuvenation procedure to improve the quality of the orgasm. 
 							</p>
 							<p>
 							There is a second major benefit that prompts women to opt for surgery! Women with a large clitoral hood will often feel uncomfortable in snug fabrics. Apart from the discomfort, there also might be some measure of pain as the clitoral hood is inclined to rub against the thighs. 
@@ -78,11 +72,11 @@ function ClitoralHoodReduction(){
 							</p>
 							<p>
 							During the procedure, patients will only require a local anesthetic but may be given an oral sedative for increased comfort.
-							he incisions will vary from patient to patient depending on the goals of the surgery. If the patient’s anatomy only requires a greater exposure of the clitoris with no skin excision, an incision will be made to in the center of the clitoral hood, extending the length of the prepuce and lateral folds of the vagina.
+							The incisions will vary from patient to patient depending on the goals of the surgery. If the patient’s anatomy only requires a greater exposure of the clitoris with no skin excision, an incision will be made to in the center of the clitoral hood, extending the length of the prepuce and lateral folds of the vagina.
 							Other patients may only require skin excision to reveal a hidden clitoris. Dissolvable sutures will be used during the procedure. Most patients are able to resume normal activity within a few days and penetrative sex within 1 month.
 							</p>
 							<p>
-							The goal of a clitoral hood reduction is to eliminate the excess folds of the clitoral hood, or prepuce.
+							The goal of a clitoral hood reduction is to eliminate the excess folds of the clitoral hood or prepuce.
 							</p>
 						</div>
 					</div>
@@ -116,6 +110,8 @@ function ClitoralHoodReduction(){
 					</div>
 				}
 				</div>
+				<Link to="/nairobicosmeticgynecology/o-shot"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+				<Link to="/nairobicosmeticgynecology/fgm_corrective_surgery"><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>
 			</div>
 			
 			<div className="clitoral__spacer" style={{display:`${spacer}`}}></div>

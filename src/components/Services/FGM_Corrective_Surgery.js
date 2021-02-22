@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './FGM_Corrective_Surgery.css';
-import Background from '../photos/evan-dvorkin-5nnIufm6ecI-unsplash.jpg';
 import ProfileImg from '../photos/pam-sharpe-uJIGWpC3Oao-unsplash2.jpg';
-import DiagramImg from '../photos/fgm_illustratiive.png';
+import DiagramImg from '../photos/fgm_diagram_illustrative.jpg';
+import { Link } from 'react-router-dom';
 
 
 function FGMCorrectiveSurgery(){
@@ -29,13 +29,7 @@ function FGMCorrectiveSurgery(){
 		}
 	}
 	return(
-		<div className='fgm__main'
-		style={{backgroundImage: `url(${Background})`,
-		backgroundPosition: "center",
-		backgroundSize: "cover",
-		backgroundRepeat: "no-repeat"
-		}}
-		>
+		<div className='fgm__main'>
 			<div className="fgm__mainContainer">
 				<h1 className="fgm__heading">FGM Reconstruction</h1>
 				<div className='fgm__firstContainer'>
@@ -92,6 +86,8 @@ function FGMCorrectiveSurgery(){
 					</div>
 				}
 				</div>
+				<Link to="/nairobicosmeticgynecology/clitoral_hood_reduction"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+				<Link to="/nairobicosmeticgynecology/vaginoplasty"><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>
 			</div>
 			<div className="fgm__spacer" style={{display:`${spacer}`}}></div>
 		</div>

@@ -4,7 +4,8 @@
   position:absolute;
   top:0;
   background-attachment:fixed;
-
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right,rgb(79,25,60), rgb(40,13,28));
 }
 
 .labiaplasty__mainContainer{
@@ -91,6 +92,4 @@
   outline: none;
 }
 
-.clitoral__faqConatianer{
 
-}

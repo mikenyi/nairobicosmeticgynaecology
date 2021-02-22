@@ -17,7 +17,7 @@ function Home(){
 				<Typist avgTypingDelay={150} cursor={{show:false}}>
 				<h2 className="home__h4" >BEAUTY WHERE IT MATTERS</h2>
 				</Typist>
-				<h1 className="home__h2" > NAIROBI COSMETICS GYNAECOLOGY </h1>
+				<h1 className="home__h2" > NAIROBI COSMETIC GYNAECOLOGY CENTER</h1>
 				<a href="https://wa.me/+254722948515?text=I%20want%20to%20book%20an%20appointment"><button className="home__appointment">Book Appointment</button>
 				</a>
 			</div>
